@@ -1,0 +1,356 @@
+{
+  "objects": [
+    {
+      "type": "group",
+      "id": "acmecorp-admin",
+      "display_name": "Acmecorp Admin Group",
+      "properties": { "displayName": "Acmecorp Admin Group" },
+      "created_at": "2024-06-19T22:04:28.325356500Z",
+      "updated_at": "2024-06-19T22:04:28.325356500Z",
+      "etag": "12715953635726888585"
+    },
+    {
+      "type": "group",
+      "id": "acmecorp-billing-admin",
+      "display_name": "Acmecorp Billing Admin Group",
+      "properties": { "displayName": "Acmecorp Billing Admin Group" },
+      "created_at": "2024-06-19T22:06:30.744752584Z",
+      "updated_at": "2024-06-19T22:06:30.744752584Z",
+      "etag": "84243315862484473"
+    },
+    {
+      "type": "group",
+      "id": "acmecorp-viewer",
+      "display_name": "Acmecorp Viewer Group",
+      "properties": { "displayName": "Acmecorp Viewer Group" },
+      "created_at": "2024-06-19T22:08:48.698713676Z",
+      "updated_at": "2024-06-19T22:08:48.698713676Z",
+      "etag": "6061959194159442703"
+    },
+    {
+      "type": "group",
+      "id": "acmecorp-member",
+      "display_name": "Acmecorp Member Group",
+      "properties": { "displayName": "Acmecorp Member Group" },
+      "created_at": "2024-06-19T22:08:48.698713676Z",
+      "updated_at": "2024-06-19T22:08:48.698713676Z",
+      "etag": "6061959194159442703"
+    },
+    {
+      "type": "group",
+      "id": "fabrikam-admin",
+      "display_name": "Fabrikam Admin Group",
+      "properties": { "displayName": "Fabrikam Admin Group" },
+      "created_at": "2024-06-19T22:04:28.325356500Z",
+      "updated_at": "2024-06-19T22:04:28.325356500Z",
+      "etag": "12715953635726888585"
+    },
+    {
+      "type": "group",
+      "id": "fabrikam-viewer",
+      "display_name": "Fabrikam Viewer Group",
+      "properties": { "displayName": "Fabrikam Viewer Group" },
+      "created_at": "2024-06-19T22:08:48.698713676Z",
+      "updated_at": "2024-06-19T22:08:48.698713676Z",
+      "etag": "6061959194159442703"
+    },
+    {
+      "type": "group",
+      "id": "fabrikam-member",
+      "display_name": "Fabrikam Member Group",
+      "properties": { "displayName": "Fabrikam Member Group" },
+      "created_at": "2024-06-19T22:08:48.698713676Z",
+      "updated_at": "2024-06-19T22:08:48.698713676Z",
+      "etag": "6061959194159442703"
+    },
+    {
+      "type": "identity",
+      "id": "CiRmZDA2MTRkMy1jMzlhLTQ3ODEtYjdiZC04Yjk2ZjVhNTEwMGQSBWxvY2Fs",
+      "properties": {
+        "kind": "IDENTITY_KIND_PID",
+        "provider": "local",
+        "verified": true
+      },
+      "created_at": "2024-06-19T22:00:19.138485718Z",
+      "updated_at": "2024-06-19T22:00:19.138485718Z",
+      "etag": "10265525541794766048"
+    },
+    {
+      "type": "identity",
+      "id": "CiRmZDE2MTRkMy1jMzlhLTQ3ODEtYjdiZC04Yjk2ZjVhNTEwMGQSBWxvY2Fs",
+      "properties": {
+        "kind": "IDENTITY_KIND_PID",
+        "provider": "local",
+        "verified": true
+      },
+      "created_at": "2024-06-19T22:00:19.139377218Z",
+      "updated_at": "2024-06-19T22:00:19.139377218Z",
+      "etag": "3361989275952694244"
+    },
+    {
+      "type": "identity",
+      "id": "CiRmZDI2MTRkMy1jMzlhLTQ3ODEtYjdiZC04Yjk2ZjVhNTEwMGQSBWxvY2Fs",
+      "properties": {
+        "kind": "IDENTITY_KIND_PID",
+        "provider": "local",
+        "verified": true
+      },
+      "created_at": "2024-06-19T22:00:19.138091468Z",
+      "updated_at": "2024-06-19T22:00:19.138091468Z",
+      "etag": "11732958792566153608"
+    },
+    {
+      "type": "identity",
+      "id": "CiRmZDM2MTRkMy1jMzlhLTQ3ODEtYjdiZC04Yjk2ZjVhNTEwMGQSBWxvY2Fs",
+      "properties": {
+        "kind": "IDENTITY_KIND_PID",
+        "provider": "local",
+        "verified": true
+      },
+      "created_at": "2024-06-19T22:00:19.138204927Z",
+      "updated_at": "2024-06-19T22:00:19.138204927Z",
+      "etag": "15137828220346548332"
+    },
+    {
+      "type": "identity",
+      "id": "CiRmZDQ2MTRkMy1jMzlhLTQ3ODEtYjdiZC04Yjk2ZjVhNTEwMGQSBWxvY2Fs",
+      "properties": {
+        "kind": "IDENTITY_KIND_PID",
+        "provider": "local",
+        "verified": true
+      },
+      "created_at": "2024-06-19T22:00:19.137044385Z",
+      "updated_at": "2024-06-19T22:00:19.137044385Z",
+      "etag": "4990862932039702768"
+    },
+    {
+      "type": "identity",
+      "id": "beth@the-smiths.com",
+      "properties": {
+        "kind": "IDENTITY_KIND_EMAIL",
+        "provider": "local",
+        "verified": true
+      },
+      "created_at": "2024-06-19T22:00:19.138672343Z",
+      "updated_at": "2024-06-19T22:00:19.138672343Z",
+      "etag": "5471657096519271354"
+    },
+    {
+      "type": "identity",
+      "id": "jerry@the-smiths.com",
+      "properties": {
+        "kind": "IDENTITY_KIND_EMAIL",
+        "provider": "local",
+        "verified": true
+      },
+      "created_at": "2024-06-19T22:00:19.138888177Z",
+      "updated_at": "2024-06-19T22:00:19.138888177Z",
+      "etag": "7273451637264438013"
+    },
+    {
+      "type": "identity",
+      "id": "morty@the-citadel.com",
+      "properties": {
+        "kind": "IDENTITY_KIND_EMAIL",
+        "provider": "local",
+        "verified": true
+      },
+      "created_at": "2024-06-19T22:00:19.140131427Z",
+      "updated_at": "2024-06-19T22:00:19.140131427Z",
+      "etag": "15892572237236952856"
+    },
+    {
+      "type": "identity",
+      "id": "rick@the-citadel.com",
+      "properties": {
+        "kind": "IDENTITY_KIND_EMAIL",
+        "provider": "local",
+        "verified": true
+      },
+      "created_at": "2024-06-19T22:00:19.138522552Z",
+      "updated_at": "2024-06-19T22:00:19.138522552Z",
+      "etag": "14912532791964816054"
+    },
+    {
+      "type": "identity",
+      "id": "summer@the-smiths.com",
+      "properties": {
+        "kind": "IDENTITY_KIND_EMAIL",
+        "provider": "local",
+        "verified": true
+      },
+      "created_at": "2024-06-19T22:00:19.138428510Z",
+      "updated_at": "2024-06-19T22:00:19.138428510Z",
+      "etag": "5790950022800067986"
+    },
+    {
+      "type": "permission",
+      "id": "can_add_billing_info",
+      "display_name": "Can Add Billing Info",
+      "properties": { "displayName": "Can Add Billing Info" },
+      "created_at": "2024-06-19T22:01:52.439814761Z",
+      "updated_at": "2024-06-19T22:01:52.439814761Z",
+      "etag": "16775764791922822347"
+    },
+    {
+      "type": "permission",
+      "id": "can_delete",
+      "display_name": "Can Delete",
+      "properties": { "displayName": "Can Delete" },
+      "created_at": "2024-06-19T22:01:04.551281795Z",
+      "updated_at": "2024-06-19T22:01:04.551281795Z",
+      "etag": "17409438048398058196"
+    },
+    {
+      "type": "permission",
+      "id": "can_read",
+      "display_name": "Can Read",
+      "properties": { "displayName": "Can Read" },
+      "created_at": "2024-06-19T22:01:31.196478543Z",
+      "updated_at": "2024-06-19T22:01:31.196478543Z",
+      "etag": "3533052537177799113"
+    },
+    {
+      "type": "permission",
+      "id": "can_write",
+      "display_name": "Can Write",
+      "properties": { "displayName": "Can Write" },
+      "created_at": "2024-06-19T22:01:39.580878755Z",
+      "updated_at": "2024-06-19T22:01:39.580878755Z",
+      "etag": "819061909034286037"
+    },
+    {
+      "type": "role",
+      "id": "acmecorp-admin",
+      "display_name": "Acmecorp Admins",
+      "properties": { "displayName": "Acmecorp Admins" },
+      "created_at": "2024-06-19T22:02:32.688489335Z",
+      "updated_at": "2024-06-19T22:02:32.688489335Z",
+      "etag": "2146556234624659074"
+    },
+    {
+      "type": "role",
+      "id": "acmecorp-billing-admin",
+      "display_name": "Acmecorp Billing Admins",
+      "properties": { "displayName": "Acmecorp Billing Admins" },
+      "created_at": "2024-06-19T22:03:18.333033218Z",
+      "updated_at": "2024-06-19T22:03:18.333033218Z",
+      "etag": "5329156101961055012"
+    },
+    {
+      "type": "role",
+      "id": "acmecorp-viewer",
+      "display_name": "Acmecorp Viewers",
+      "properties": { "displayName": "Acmecorp Viewers" },
+      "created_at": "2024-06-19T22:08:02.657714877Z",
+      "updated_at": "2024-06-19T22:08:02.657714877Z",
+      "etag": "7874332289880766426"
+    },
+    {
+      "type": "role",
+      "id": "acmecorp-member",
+      "display_name": "Acmecorp Members",
+      "properties": { "displayName": "Acmecorp Members" },
+      "created_at": "2024-06-19T22:08:02.657714877Z",
+      "updated_at": "2024-06-19T22:08:02.657714877Z",
+      "etag": "7874332289880766426"
+    },
+    {
+      "type": "role",
+      "id": "fabrikam-admin",
+      "display_name": "Fabrikam Admins",
+      "properties": { "displayName": "Fabrikam Admins" },
+      "created_at": "2024-06-19T22:02:32.688489335Z",
+      "updated_at": "2024-06-19T22:02:32.688489335Z",
+      "etag": "2146556234624659074"
+    },
+    {
+      "type": "role",
+      "id": "fabrikam-viewer",
+      "display_name": "Fabrikam Viewers",
+      "properties": { "displayName": "Fabrikam Viewers" },
+      "created_at": "2024-06-19T22:08:02.657714877Z",
+      "updated_at": "2024-06-19T22:08:02.657714877Z",
+      "etag": "7874332289880766426"
+    },
+    {
+      "type": "role",
+      "id": "fabrikam-member",
+      "display_name": "Fabrikam Members",
+      "properties": { "displayName": "Fabrikam Members" },
+      "created_at": "2024-06-19T22:08:02.657714877Z",
+      "updated_at": "2024-06-19T22:08:02.657714877Z",
+      "etag": "7874332289880766426"
+    },
+    {
+      "type": "user",
+      "id": "beth@the-smiths.com",
+      "display_name": "Beth Smith",
+      "properties": {
+        "email": "beth@the-smiths.com",
+        "picture": "https://www.topaz.sh/assets/templates/citadel/img/Beth%20Smith.jpg",
+        "roles": ["viewer"],
+        "status": "USER_STATUS_ACTIVE"
+      },
+      "created_at": "2024-06-19T22:00:19.139274760Z",
+      "updated_at": "2024-06-19T22:00:19.139274760Z",
+      "etag": "512654990579550493"
+    },
+    {
+      "type": "user",
+      "id": "jerry@the-smiths.com",
+      "display_name": "Jerry Smith",
+      "properties": {
+        "email": "jerry@the-smiths.com",
+        "picture": "https://www.topaz.sh/assets/templates/citadel/img/Jerry%20Smith.jpg",
+        "roles": ["viewer"],
+        "status": "USER_STATUS_ACTIVE"
+      },
+      "created_at": "2024-06-19T22:00:19.139060468Z",
+      "updated_at": "2024-06-19T22:00:19.139060468Z",
+      "etag": "15557840156269755274"
+    },
+    {
+      "type": "user",
+      "id": "morty@the-citadel.com",
+      "display_name": "Morty Smith",
+      "properties": {
+        "email": "morty@the-citadel.com",
+        "picture": "https://www.topaz.sh/assets/templates/citadel/img/Morty%20Smith.jpg",
+        "roles": ["editor"],
+        "status": "USER_STATUS_ACTIVE"
+      },
+      "created_at": "2024-06-19T22:00:19.139778510Z",
+      "updated_at": "2024-06-19T22:00:19.139778510Z",
+      "etag": "14932635147313973396"
+    },
+    {
+      "type": "user",
+      "id": "rick@the-citadel.com",
+      "display_name": "Rick Sanchez",
+      "properties": {
+        "email": "rick@the-citadel.com",
+        "picture": "https://www.topaz.sh/assets/templates/citadel/img/Rick%20Sanchez.jpg",
+        "roles": ["admin", "evil_genius"],
+        "status": "USER_STATUS_ACTIVE"
+      },
+      "created_at": "2024-06-19T22:00:19.139569093Z",
+      "updated_at": "2024-06-19T22:00:19.139569093Z",
+      "etag": "948604866316391264"
+    },
+    {
+      "type": "user",
+      "id": "summer@the-smiths.com",
+      "display_name": "Summer Smith",
+      "properties": {
+        "email": "summer@the-smiths.com",
+        "picture": "https://www.topaz.sh/assets/templates/citadel/img/Summer%20Smith.jpg",
+        "roles": ["editor"],
+        "status": "USER_STATUS_ACTIVE"
+      },
+      "created_at": "2024-06-19T22:00:19.139906760Z",
+      "updated_at": "2024-06-19T22:00:19.139906760Z",
+      "etag": "17144384861342240382"
+    }
+  ]
+}

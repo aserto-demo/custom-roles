@@ -1,0 +1,431 @@
+{
+  "relations": [
+    {
+      "object_type": "group",
+      "object_id": "acmecorp-admin",
+      "relation": "member",
+      "subject_type": "user",
+      "subject_id": "rick@the-citadel.com",
+      "created_at": "2024-06-19T22:04:48.802415510Z",
+      "updated_at": "2024-06-19T22:04:48.802415510Z",
+      "etag": "9781105104957711835"
+    },
+    {
+      "object_type": "group",
+      "object_id": "acmecorp-billing-admin",
+      "relation": "member",
+      "subject_type": "user",
+      "subject_id": "morty@the-citadel.com",
+      "created_at": "2024-06-19T22:07:01.552015043Z",
+      "updated_at": "2024-06-19T22:07:01.552015043Z",
+      "etag": "16251077344764966599"
+    },
+    {
+      "object_type": "group",
+      "object_id": "acmecorp-viewer",
+      "relation": "member",
+      "subject_type": "user",
+      "subject_id": "summer@the-smiths.com",
+      "created_at": "2024-06-19T22:00:19.142239260Z",
+      "updated_at": "2024-06-19T22:00:19.142239260Z",
+      "etag": "7520381670766297568"
+    },
+    {
+      "object_type": "group",
+      "object_id": "fabrikam-admin",
+      "relation": "member",
+      "subject_type": "user",
+      "subject_id": "beth@the-smiths.com",
+      "created_at": "2024-06-19T22:00:19.142542135Z",
+      "updated_at": "2024-06-19T22:00:19.142542135Z",
+      "etag": "8516787445654407481"
+    },
+    {
+      "object_type": "group",
+      "object_id": "fabrikam-member",
+      "relation": "member",
+      "subject_type": "user",
+      "subject_id": "jerry@the-smiths.com",
+      "created_at": "2024-06-19T22:00:19.142294677Z",
+      "updated_at": "2024-06-19T22:00:19.142294677Z",
+      "etag": "15157237189428420024"
+    },
+    {
+      "object_type": "group",
+      "object_id": "fabrikam-admin",
+      "relation": "member",
+      "subject_type": "user",
+      "subject_id": "rick@the-citadel.com",
+      "created_at": "2024-06-19T22:00:19.143120218Z",
+      "updated_at": "2024-06-19T22:00:19.143120218Z",
+      "etag": "2091913623852294601"
+    },
+    {
+      "object_type": "identity",
+      "object_id": "CiRmZDA2MTRkMy1jMzlhLTQ3ODEtYjdiZC04Yjk2ZjVhNTEwMGQSBWxvY2Fs",
+      "relation": "identifier",
+      "subject_type": "user",
+      "subject_id": "rick@the-citadel.com",
+      "created_at": "2024-06-19T22:00:19.141591802Z",
+      "updated_at": "2024-06-19T22:00:19.141591802Z",
+      "etag": "9644710518185364647"
+    },
+    {
+      "object_type": "identity",
+      "object_id": "CiRmZDE2MTRkMy1jMzlhLTQ3ODEtYjdiZC04Yjk2ZjVhNTEwMGQSBWxvY2Fs",
+      "relation": "identifier",
+      "subject_type": "user",
+      "subject_id": "morty@the-citadel.com",
+      "created_at": "2024-06-19T22:00:19.141705802Z",
+      "updated_at": "2024-06-19T22:00:19.141705802Z",
+      "etag": "4732434134568819573"
+    },
+    {
+      "object_type": "identity",
+      "object_id": "CiRmZDI2MTRkMy1jMzlhLTQ3ODEtYjdiZC04Yjk2ZjVhNTEwMGQSBWxvY2Fs",
+      "relation": "identifier",
+      "subject_type": "user",
+      "subject_id": "summer@the-smiths.com",
+      "created_at": "2024-06-19T22:00:19.141767635Z",
+      "updated_at": "2024-06-19T22:00:19.141767635Z",
+      "etag": "16494628015735280279"
+    },
+    {
+      "object_type": "identity",
+      "object_id": "CiRmZDM2MTRkMy1jMzlhLTQ3ODEtYjdiZC04Yjk2ZjVhNTEwMGQSBWxvY2Fs",
+      "relation": "identifier",
+      "subject_type": "user",
+      "subject_id": "beth@the-smiths.com",
+      "created_at": "2024-06-19T22:00:19.141793052Z",
+      "updated_at": "2024-06-19T22:00:19.141793052Z",
+      "etag": "7588484659248250303"
+    },
+    {
+      "object_type": "identity",
+      "object_id": "CiRmZDQ2MTRkMy1jMzlhLTQ3ODEtYjdiZC04Yjk2ZjVhNTEwMGQSBWxvY2Fs",
+      "relation": "identifier",
+      "subject_type": "user",
+      "subject_id": "jerry@the-smiths.com",
+      "created_at": "2024-06-19T22:00:19.141838177Z",
+      "updated_at": "2024-06-19T22:00:19.141838177Z",
+      "etag": "18390582232852413212"
+    },
+    {
+      "object_type": "identity",
+      "object_id": "beth@the-smiths.com",
+      "relation": "identifier",
+      "subject_type": "user",
+      "subject_id": "beth@the-smiths.com",
+      "created_at": "2024-06-19T22:00:19.141492385Z",
+      "updated_at": "2024-06-19T22:00:19.141492385Z",
+      "etag": "909773943867002329"
+    },
+    {
+      "object_type": "identity",
+      "object_id": "jerry@the-smiths.com",
+      "relation": "identifier",
+      "subject_type": "user",
+      "subject_id": "jerry@the-smiths.com",
+      "created_at": "2024-06-19T22:00:19.141910968Z",
+      "updated_at": "2024-06-19T22:00:19.141910968Z",
+      "etag": "2785424658748130775"
+    },
+    {
+      "object_type": "identity",
+      "object_id": "morty@the-citadel.com",
+      "relation": "identifier",
+      "subject_type": "user",
+      "subject_id": "morty@the-citadel.com",
+      "created_at": "2024-06-19T22:00:19.141935843Z",
+      "updated_at": "2024-06-19T22:00:19.141935843Z",
+      "etag": "5185903565386983373"
+    },
+    {
+      "object_type": "identity",
+      "object_id": "rick@the-citadel.com",
+      "relation": "identifier",
+      "subject_type": "user",
+      "subject_id": "rick@the-citadel.com",
+      "created_at": "2024-06-19T22:00:19.142047343Z",
+      "updated_at": "2024-06-19T22:00:19.142047343Z",
+      "etag": "12808372912248398855"
+    },
+    {
+      "object_type": "identity",
+      "object_id": "summer@the-smiths.com",
+      "relation": "identifier",
+      "subject_type": "user",
+      "subject_id": "summer@the-smiths.com",
+      "created_at": "2024-06-19T22:00:19.142185802Z",
+      "updated_at": "2024-06-19T22:00:19.142185802Z",
+      "etag": "11171617360801319017"
+    },
+    {
+      "object_type": "permission",
+      "object_id": "can_add_billing_info",
+      "relation": "role",
+      "subject_type": "role",
+      "subject_id": "acmecorp-admin",
+      "created_at": "2024-06-19T22:02:47.910019384Z",
+      "updated_at": "2024-06-19T22:02:47.910019384Z",
+      "etag": "2661260594365763481"
+    },
+    {
+      "object_type": "permission",
+      "object_id": "can_add_billing_info",
+      "relation": "role",
+      "subject_type": "role",
+      "subject_id": "acmecorp-billing-admin",
+      "created_at": "2024-06-19T22:03:26.561709680Z",
+      "updated_at": "2024-06-19T22:03:26.561709680Z",
+      "etag": "11078780233436808951"
+    },
+    {
+      "object_type": "permission",
+      "object_id": "can_delete",
+      "relation": "role",
+      "subject_type": "role",
+      "subject_id": "acmecorp-admin",
+      "created_at": "2024-06-19T22:02:51.874130178Z",
+      "updated_at": "2024-06-19T22:02:51.874130178Z",
+      "etag": "3467427245301945838"
+    },
+    {
+      "object_type": "permission",
+      "object_id": "can_read",
+      "relation": "role",
+      "subject_type": "role",
+      "subject_id": "acmecorp-admin",
+      "created_at": "2024-06-19T22:02:55.777624763Z",
+      "updated_at": "2024-06-19T22:02:55.777624763Z",
+      "etag": "10851872033921039725"
+    },
+    {
+      "object_type": "permission",
+      "object_id": "can_read",
+      "relation": "role",
+      "subject_type": "role",
+      "subject_id": "acmecorp-viewer",
+      "created_at": "2024-06-19T22:08:18.827865635Z",
+      "updated_at": "2024-06-19T22:08:18.827865635Z",
+      "etag": "615621335299134264"
+    },
+    {
+      "object_type": "permission",
+      "object_id": "can_write",
+      "relation": "role",
+      "subject_type": "role",
+      "subject_id": "acmecorp-admin",
+      "created_at": "2024-06-19T22:02:59.092224459Z",
+      "updated_at": "2024-06-19T22:02:59.092224459Z",
+      "etag": "4522544706742848798"
+    },
+    {
+      "object_type": "permission",
+      "object_id": "can_read",
+      "relation": "role",
+      "subject_type": "role",
+      "subject_id": "acmecorp-member",
+      "created_at": "2024-06-19T22:08:18.827865635Z",
+      "updated_at": "2024-06-19T22:08:18.827865635Z",
+      "etag": "615621335299134264"
+    },
+    {
+      "object_type": "permission",
+      "object_id": "can_write",
+      "relation": "role",
+      "subject_type": "role",
+      "subject_id": "acmecorp-member",
+      "created_at": "2024-06-19T22:02:59.092224459Z",
+      "updated_at": "2024-06-19T22:02:59.092224459Z",
+      "etag": "4522544706742848798"
+    },
+    {
+      "object_type": "permission",
+      "object_id": "can_add_billing_info",
+      "relation": "role",
+      "subject_type": "role",
+      "subject_id": "fabrikam-admin",
+      "created_at": "2024-06-19T22:02:47.910019384Z",
+      "updated_at": "2024-06-19T22:02:47.910019384Z",
+      "etag": "2661260594365763481"
+    },
+    {
+      "object_type": "permission",
+      "object_id": "can_delete",
+      "relation": "role",
+      "subject_type": "role",
+      "subject_id": "fabrikam-admin",
+      "created_at": "2024-06-19T22:02:51.874130178Z",
+      "updated_at": "2024-06-19T22:02:51.874130178Z",
+      "etag": "3467427245301945838"
+    },
+    {
+      "object_type": "permission",
+      "object_id": "can_read",
+      "relation": "role",
+      "subject_type": "role",
+      "subject_id": "fabrikam-admin",
+      "created_at": "2024-06-19T22:02:55.777624763Z",
+      "updated_at": "2024-06-19T22:02:55.777624763Z",
+      "etag": "10851872033921039725"
+    },
+    {
+      "object_type": "permission",
+      "object_id": "can_read",
+      "relation": "role",
+      "subject_type": "role",
+      "subject_id": "fabrikam-viewer",
+      "created_at": "2024-06-19T22:08:18.827865635Z",
+      "updated_at": "2024-06-19T22:08:18.827865635Z",
+      "etag": "615621335299134264"
+    },
+    {
+      "object_type": "permission",
+      "object_id": "can_write",
+      "relation": "role",
+      "subject_type": "role",
+      "subject_id": "fabrikam-admin",
+      "created_at": "2024-06-19T22:02:59.092224459Z",
+      "updated_at": "2024-06-19T22:02:59.092224459Z",
+      "etag": "4522544706742848798"
+    },
+    {
+      "object_type": "permission",
+      "object_id": "can_read",
+      "relation": "role",
+      "subject_type": "role",
+      "subject_id": "fabrikam-member",
+      "created_at": "2024-06-19T22:08:18.827865635Z",
+      "updated_at": "2024-06-19T22:08:18.827865635Z",
+      "etag": "615621335299134264"
+    },
+    {
+      "object_type": "permission",
+      "object_id": "can_write",
+      "relation": "role",
+      "subject_type": "role",
+      "subject_id": "fabrikam-member",
+      "created_at": "2024-06-19T22:02:59.092224459Z",
+      "updated_at": "2024-06-19T22:02:59.092224459Z",
+      "etag": "4522544706742848798"
+    },
+    {
+      "object_type": "role",
+      "object_id": "acmecorp-admin",
+      "relation": "member",
+      "subject_type": "group",
+      "subject_id": "acmecorp-admin",
+      "subject_relation": "member",
+      "created_at": "2024-06-19T22:05:41.902884048Z",
+      "updated_at": "2024-06-19T22:05:41.902884048Z",
+      "etag": "2029247342359780908"
+    },
+    {
+      "object_type": "role",
+      "object_id": "acmecorp-billing-admin",
+      "relation": "member",
+      "subject_type": "group",
+      "subject_id": "acmecorp-billing-admin",
+      "subject_relation": "member",
+      "created_at": "2024-06-19T22:07:22.865401095Z",
+      "updated_at": "2024-06-19T22:07:22.865401095Z",
+      "etag": "4933472874891240052"
+    },
+    {
+      "object_type": "role",
+      "object_id": "acmecorp-viewer",
+      "relation": "member",
+      "subject_type": "group",
+      "subject_id": "acmecorp-viewer",
+      "subject_relation": "member",
+      "created_at": "2024-06-19T22:07:22.865401095Z",
+      "updated_at": "2024-06-19T22:07:22.865401095Z",
+      "etag": "4933472874891240052"
+    },
+    {
+      "object_type": "role",
+      "object_id": "acmecorp-member",
+      "relation": "member",
+      "subject_type": "group",
+      "subject_id": "acmecorp-member",
+      "subject_relation": "member",
+      "created_at": "2024-06-19T22:07:22.865401095Z",
+      "updated_at": "2024-06-19T22:07:22.865401095Z",
+      "etag": "4933472874891240052"
+    },
+    {
+      "object_type": "role",
+      "object_id": "fabrikam-admin",
+      "relation": "member",
+      "subject_type": "group",
+      "subject_id": "fabrikam-admin",
+      "subject_relation": "member",
+      "created_at": "2024-06-19T22:05:41.902884048Z",
+      "updated_at": "2024-06-19T22:05:41.902884048Z",
+      "etag": "2029247342359780908"
+    },
+    {
+      "object_type": "role",
+      "object_id": "fabrikam-viewer",
+      "relation": "member",
+      "subject_type": "group",
+      "subject_id": "fabrikam-viewer",
+      "subject_relation": "member",
+      "created_at": "2024-06-19T22:07:22.865401095Z",
+      "updated_at": "2024-06-19T22:07:22.865401095Z",
+      "etag": "4933472874891240052"
+    },
+    {
+      "object_type": "role",
+      "object_id": "fabrikam-member",
+      "relation": "member",
+      "subject_type": "group",
+      "subject_id": "fabrikam-member",
+      "subject_relation": "member",
+      "created_at": "2024-06-19T22:07:22.865401095Z",
+      "updated_at": "2024-06-19T22:07:22.865401095Z",
+      "etag": "4933472874891240052"
+    },
+    {
+      "object_type": "user",
+      "object_id": "beth@the-smiths.com",
+      "relation": "manager",
+      "subject_type": "user",
+      "subject_id": "rick@the-citadel.com",
+      "created_at": "2024-06-19T22:00:19.141264260Z",
+      "updated_at": "2024-06-19T22:00:19.141264260Z",
+      "etag": "13839255037643802228"
+    },
+    {
+      "object_type": "user",
+      "object_id": "jerry@the-smiths.com",
+      "relation": "manager",
+      "subject_type": "user",
+      "subject_id": "beth@the-smiths.com",
+      "created_at": "2024-06-19T22:00:19.141073468Z",
+      "updated_at": "2024-06-19T22:00:19.141073468Z",
+      "etag": "6182524498665296079"
+    },
+    {
+      "object_type": "user",
+      "object_id": "morty@the-citadel.com",
+      "relation": "manager",
+      "subject_type": "user",
+      "subject_id": "rick@the-citadel.com",
+      "created_at": "2024-06-19T22:00:19.141326343Z",
+      "updated_at": "2024-06-19T22:00:19.141326343Z",
+      "etag": "8481091871742820434"
+    },
+    {
+      "object_type": "user",
+      "object_id": "summer@the-smiths.com",
+      "relation": "manager",
+      "subject_type": "user",
+      "subject_id": "rick@the-citadel.com",
+      "created_at": "2024-06-19T22:00:19.141354177Z",
+      "updated_at": "2024-06-19T22:00:19.141354177Z",
+      "etag": "64356889189495292"
+    }
+  ]
+}
