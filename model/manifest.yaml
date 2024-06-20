@@ -2,8 +2,8 @@
 ---
 
 ### filename: manifest.yaml ###
-### datetime: 2023-12-19T00:00:00-00:00 ###
-### description: gdrive manifest ###
+### datetime: 2024-06-19T00:00:00-00:00 ###
+### description: custom-roles manifest ###
 #
 # model
 model:
@@ -33,12 +33,14 @@ types:
       ### display_name: group#member ###
       member: user | group#member
 
+  ### display_name: Role ###
   role:
     relations:
       member: group#member
     permissions:
       has_permission: member
 
+  ### display_name: Permission ###
   permission:
     relations:
       role: role
