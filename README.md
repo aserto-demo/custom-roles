@@ -16,9 +16,10 @@ brew tap aserto-dev/topaz && brew install topaz
 topaz templates install simple-rbac --config-name="custom-roles"
 ```
 
-3. Overwrite the manifest with the one in this repo:
+3. Delete the manifest and replace it with the one in this repo:
 
 ```bash
+topaz directory delete manifest
 topaz directory set manifest ./model/manifest.yaml
 ```
 
@@ -124,6 +125,8 @@ topaz ds check '
   "subject_type": "user",
   "subject_id": "rick@the-citadel.com"
 }'
+```
+```json
 {
   "check":  true,
   "trace":  []
@@ -139,6 +142,8 @@ topaz ds check '
   "subject_type": "user",
   "subject_id": "rick@the-citadel.com"
 }'
+```
+```json
 {
   "check":  true,
   "trace":  []
@@ -158,6 +163,8 @@ topaz ds check '
   "subject_type": "user",
   "subject_id": "morty@the-citadel.com"
 }'
+```
+```json
 {
   "check":  false,
   "trace":  []
@@ -173,6 +180,8 @@ topaz ds check '
   "subject_type": "user",
   "subject_id": "morty@the-citadel.com"
 }'
+```
+```json
 {
   "check":  true,
   "trace":  []
@@ -277,6 +286,8 @@ topaz ds check '
   "subject_type": "user",
   "subject_id": "morty@the-citadel.com"
 }'
+```
+```json
 {
   "check":  true,
   "trace":  []
